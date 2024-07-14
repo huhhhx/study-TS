@@ -72,7 +72,7 @@ module.exports = {
     new HTMLwebpackPlugin({
       title: "这是一个自定义的title",
       // 为生成的html提供一个模板
-      template: "./src/index.html",
+      template: "./src/template.html",
     }),
   ],
   // 用来设置哪些文件可以作为模块被引入进来
